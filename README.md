@@ -1,2 +1,0 @@
-# rWin
-rideW
