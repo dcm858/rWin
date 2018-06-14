@@ -1,0 +1,245 @@
+<!-- newRW.css -->
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.navbar {
+  margin-bottom: 0;
+  
+}
+
+img{
+    max-width: 100%;
+}
+
+.blockquote{
+    font-size: 3rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+/*.navbar-collapse .container-fluid{
+    padding: .5rem .5rem;
+    border-bottom: 1px solid #55595c;
+}*/
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url('img/baadTraff.png');
+  background-repeat: no-repeat;
+  background-position: bottom-center;
+  background-size: cover;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  background: rgba(255,255,255,0.75);
+  padding: 2rem;
+}
+
+.jumbotron p {
+    color: #1d603a;
+    font-weight:400;
+}
+
+.first {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+/*.card {
+  /* float: left; */
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;   
+} */
+  .card > img {
+   margin-bottom: .75rem;
+   max-width: 100%; 
+}
+  .card-text {
+  font-size: 1.5rem;
+  }
+} */
+ 
+h2,h3,h4,h5{
+    font-family:"Open Sans", "Helvetica", "Sans Serif";
+}
+.features {
+    background: #fcdb94;
+}
+
+.features h2{
+    padding-top:5rem; 
+    color: #1d603a;
+    font-weight:600;
+}
+
+.features img{
+    padding-top:4rem;
+    padding-bottom:3rem;
+}
+.features p{
+    color:#006600;
+    margin-bottom:2rem;
+    font-size: 1.85rem;
+}
+
+/*.row:before, .row:after {
+    display: none !important;
+} */
+
+.final {
+   background: #e6f7b7;
+   padding-top: 4rem;
+   padding-left: 3rem;
+   padding-bottom:5rem;
+   max-width:100%;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.final .container{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.final img{
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-top:2rem;
+   height:auto;
+   width:auto;
+ 
+  }
+  
+.final caption{
+  /* color: #006600; */
+  color: #008000;
+  border: none; 
+  font-size:1.5rem;
+}
+
+.final h2{
+    margin-top:3rem;
+    margin-bottom:.5rem;
+    color: #1d603a; 
+}
+.final h4{
+    padding-top:2rem;
+    align-items:center;
+    color: #ce6d18;
+    font-size:1.75rem;
+    font-weight:600;
+}
+.final h5{
+    color: #1d603a;
+}
+
+.contact{
+    background-color: #ffd480;
+    max-width: 100%
+}  
+ .contact h2{
+   color:#1d603a;
+   font-size:2.25rem;
+   font-weight:600;  
+}
+
+.signup .container{
+  padding-top:.5rem;
+  max-width: 100%;
+}
+
+.signup h10{
+  text-align:justify;
+  font-size:2.25rem;
+  font-weight:500;
+  margin-left:.40rem;
+  color:#009900;
+  } 
+
+.signup .card p{
+  /*font-size:1.25rem;
+  float:right;
+  margin-left:1rem;*/
+  color:#2b7042;
+}
+
+ .signup .form{  
+    margin-left:2rem;
+}
+
+footer .container-fluid{ 
+  background-color:#ffeb99;
+ /* margin-left:2rem;
+  margin-right:2rem;*/
+  max-width: 100%;
+}
+
+footer{
+      text-align:center;
+      font-family: "Open-Sans",sans-serif;
+      font-style: normal;
+      color: #008000;
+      font-weight: 600;
+      font-size:1.33rem;
+      margin-bottom: .25rem;
+      padding-top:1rem;
+   /*   padding-bottom:1rem; */
+      background-color:#ffd480;
+} 
+/*footer {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  font-weight:600;
+
+}*/
+
+
+
+
+
