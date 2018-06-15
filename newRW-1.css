@@ -153,9 +153,8 @@ h2,h3,h4,h5{
  
   }
   
-.final caption{
-  /* color: #006600; */
-  color: #008000;
+.final .caption{
+  color: #2d7a28;
   border: none; 
   font-size:1.5rem;
 }
