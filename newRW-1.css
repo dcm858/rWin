@@ -195,15 +195,15 @@ h2,h3,h4,h5{
   text-align:justify;
   font-size:2.25rem;
   font-weight:500;
-  margin-left:.25rem;
+  margin-left:.20rem;
   color:#009900;
   } 
 
-.signup p{
+.signup .p{
   color:#006600; 
 }
 
- .signup form{  
+ .signup .form{  
     margin-left:2rem;
 }
 
