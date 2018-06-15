@@ -199,15 +199,12 @@ h2,h3,h4,h5{
   color:#009900;
   } 
 
-.signup .card .p{
+.signup .card p{
   color:#006600; 
 }
 
- .signup .form{  
+ .signup form{  
     margin-left:2rem;
-}
-.signup .form .label{
-    color:#006600;
 }
 
 footer .container-fluid{ 
