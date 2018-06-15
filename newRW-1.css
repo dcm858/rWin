@@ -154,7 +154,8 @@ h2,h3,h4,h5{
   }
   
 .final .caption{
-  color: #2d7a28;
+ /* color: #2d7a28; */
+  color:#006600;
   border: none; 
   font-size:1.5rem;
 }
@@ -199,10 +200,10 @@ h2,h3,h4,h5{
   } 
 
 .signup .p{
+  color:#006600;
   /*font-size:1.25rem;
   float:right;
   margin-left:1rem;*/
-  color:#21601d;
 }
 
  .signup .form{  
