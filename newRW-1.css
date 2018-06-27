@@ -209,8 +209,6 @@ h2,h3,h4,h5{
 
 footer .container-fluid{ 
   background-color:#ffeb99;
- /* margin-left:2rem;
-  margin-right:2rem;*/
   max-width: 100%;
 }
 
@@ -223,18 +221,9 @@ footer{
       font-size:1.33rem;
       margin-bottom: .25rem;
       padding-top:1rem;
-   /*   padding-bottom:1rem; */
       background-color:#ffd480;
 } 
-/*footer {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
 
-footer p {
-  font-weight:600;
-
-}*/
 
 
 
