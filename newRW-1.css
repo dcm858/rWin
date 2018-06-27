@@ -219,7 +219,7 @@ footer{
       color: #008000;
       font-weight: 600;
       font-size:1.33rem;
-      margin-bottom: .25rem;
+      /*margin-bottom: .25rem;*/
       padding-top:1rem;
       background-color:#ffd480;
 } 
